@@ -1,0 +1,139 @@
+/* Global */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f6fa;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header */
+header {
+    background-color: #004080;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #0066cc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav a {
+    padding: 15px 25px;
+    color: #fff;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #0052a3;
+}
+
+/* Sections */
+section {
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+section h2 {
+    color: #004080;
+    font-size: 2em;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #0066cc;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Service Boxes */
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.service-box {
+    flex: 1 1 300px;
+    background: #fff;
+    padding: 25px 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.service-box h3 {
+    color: #004080;
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.service-box p {
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+/* Fees Section */
+#fees p {
+    background-color: #e6f0ff;
+    padding: 20px;
+    border-left: 5px solid #004080;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+/* Contact */
+#contact p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+#contact a.contact-link {
+    color: #004080;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #004080;
+    color: #fff;
+    text-align: center;
+    padding: 25px 20px;
+    margin-top: 50px;
+    font-size: 0.9em;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+    .services {
+        flex-direction: column;
+    }
+}
