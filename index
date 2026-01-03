@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SH Business Management Limited | Real Estate, HMO Compliance & Business Consultancy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>SH Business Management Limited</h1>
+            <p>Real Estate, HMO Compliance & Business Consultancy</p>
+            <p>UK & Northern Ireland</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="landlords.html">Landlords</a></li>
+                <li><a href="investors.html">Investors</a></li>
+                <li><a href="public-sector.html">Public Sector</a></li>
+                <li><a href="community-projects.html">Community Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Professional, Partner-Led Consultancy Services</h2>
+        <p>Supporting landlords, investors, councils, and organisations with compliant, commercially focused solutions.</p>
+    </section>
+
+    <section class="services">
+        <h2>What We Do</h2>
+        <div class="service-box">
+            <h3>HMO Advisory</h3>
+            <p>Feasibility, licensing, compliance support and property oversight for HMO landlords and investors.</p>
+        </div>
+        <div class="service-box">
+            <h3>Real Estate Advisory</h3>
+            <p>Property investment analysis and advisory services to maximise returns while remaining compliant.</p>
+        </div>
+        <div class="service-box">
+            <h3>Landlord Services</h3>
+            <p>Partner-led management agency support, portfolio oversight and compliance solutions.</p>
+        </div>
+        <div class="service-box">
+            <h3>Business & Governance Consultancy</h3>
+            <p>Partner-led business law and accountancy services for operational excellence and risk mitigation.</p>
+        </div>
+        <div class="service-box">
+            <h3>Maintenance & Repairs</h3>
+            <p>Partner-led maintenance and repairs service ensuring your properties are compliant and secure.</p>
+        </div>
+        <div class="service-box">
+            <h3>Public Sector & Council Services</h3>
+            <p>Delivering fully compliant, ready-to-use solutions for councils and organisations.</p>
+        </div>
+    </section>
+
+    <section class="about">
+        <h2>Who We Are</h2>
+        <p>SH Business Management Limited has over 5 years trading experience and 23+ years combined expertise across business, real estate, and community-based projects. We deliver commercially focused solutions aligned with UK and Northern Ireland regulations.</p>
+    </section>
+
+    <footer>
+        <div class="footer-info">
+            <p>Email: <a href="mailto:Samuel@enquiriesshbm.co.uk">Samuel@enquiriesshbm.co.uk</a></p>
+            <p>Phone: 07404 130864</p>
+            <p>&copy; 2026 SH Business Management Limited</p>
+        </div>
+        <nav class="footer-nav">
+            <ul>
+                <li><a href="terms.html">Terms & Conditions</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="cookies.html">Cookie Policy</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
