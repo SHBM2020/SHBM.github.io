@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Partner-Led Insurance & Brokerage - SH Business Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>SH Business Management Limited</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="landlord.html">Landlords</a></li>
+        <li><a href="investors.html">Investors</a></li>
+        <li><a href="publicsector.html">Public Sector</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="insurance-brokerage.html" class="active">Insurance & Brokerage</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section class="services">
+      <h3>Partner-Led Insurance & Brokerage Services</h3>
+      <p>SH Business Management Limited partners with trusted insurance and brokerage experts to provide tailored solutions for individuals, landlords, investors, and corporate clients. Our partner-led approach ensures compliance, professionalism, and peace of mind.</p>
+      <ul>
+        <li>Comprehensive public and corporate insurance solutions</li>
+        <li>Risk assessment and mitigation strategies</li>
+        <li>Portfolio coverage for landlords and investors</li>
+        <li>Partner-led advisory for business continuity and compliance</li>
+        <li>UK and worldwide insurance options available</li>
+      </ul>
+    </section>
+
+    <section class="partner-led">
+      <h3>Why Choose Partner-Led Services?</h3>
+      <p>Our partner-led insurance and brokerage model ensures that every client benefits from expert oversight and personalised solutions. With SH Business Management Limited, you gain access to:</p>
+      <ul>
+        <li>Experienced insurance brokers and advisors</li>
+        <li>Full compliance with UK & international regulations</li>
+        <li>Integrated solutions across real estate, business, and finance</li>
+        <li>Direct communication with partner-led professionals</li>
+      </ul>
+    </section>
+
+    <section class="contact">
+      <h3>Get in Touch</h3>
+      <p>Email: <a href="mailto:Samuel@enquiriesshbm.co.uk">Samuel@enquiriesshbm.co.uk</a></p>
+      <p>Phone: <a href="tel:+447404130864">07404 130 864</a></p>
+      <p>Address: 152-160 City Road, London, EC1V 2NX, United Kingdom</p>
+
+      <h3>Send an Instant Message</h3>
+      <form action="mailto:Samuel@enquiriesshbm.co.uk" method="post" enctype="text/plain">
+        <p><label>Name:<br><input type="text" name="name" required></label></p>
+        <p><label>Email:<br><input type="email" name="email" required></label></p>
+        <p><label>Message:<br><textarea name="message" rows="5" required></textarea></label></p>
+        <p><input type="submit" value="Send Message"></p>
+      </form>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2026 SH Business Management Limited</p>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="landlord.html">Landlords</a></li>
+      <li><a href="investors.html">Investors</a></li>
+      <li><a href="publicsector.html">Public Sector</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="insurance-brokerage.html">Insurance & Brokerage</a></li>
+    </ul>
+  </footer>
+</body>
+</html>
