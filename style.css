@@ -1,0 +1,136 @@
+/* ===============================
+   SH Business Management – FINAL FIX
+   Forces professional layout on ALL pages
+   =============================== */
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+/* GLOBAL */
+body {
+  background-color: #f4f6f8;
+  color: #222;
+  line-height: 1.7;
+}
+
+/* FORCE ALL PAGE CONTENT INTO A PROFESSIONAL CARD */
+body > *:not(header):not(footer) {
+  max-width: 1200px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+/* LINKS */
+a {
+  color: #003366;
+  text-decoration: none;
+  font-weight: 600;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* HEADER */
+header {
+  background: #003366;
+  color: #fff;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 34px;
+  margin-bottom: 15px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  margin: 10px 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 6px;
+}
+
+nav ul li a:hover {
+  background: #00509e;
+}
+
+/* HEADINGS */
+h1, h2, h3 {
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+/* LISTS */
+ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* PARAGRAPHS */
+p {
+  font-size: 17px;
+  margin-bottom: 16px;
+}
+
+/* CONTACT LINKS */
+.contact a,
+a[href^="mailto"],
+a[href^="tel"] {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+  background: #001f3f;
+  color: #fff;
+  text-align: center;
+  padding: 25px 15px;
+  margin-top: 60px;
+}
+
+footer a {
+  color: #9fd3ff;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  body > *:not(header):not(footer) {
+    margin: 20px;
+    padding: 25px;
+  }
+
+  header h1 {
+    font-size: 26px;
+  }
+}
